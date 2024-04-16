@@ -13,6 +13,26 @@ SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted
         All translations for all KDE apps are handled by the [localization team](https://l10n.kde.org).
         We really appreciate your translations, but make sure to submit them by working with the proper team!
   -->
+  <!-- New stuff -->
+  <string name="mousepad_keypad_settings_title" translatable="false">Set Mousepad Keys</string>
+  <string name="mousepad_default_keypad" translatable="false">default</string>
+  <string name="mousepad_keypad_key" translatable="false">mousepad_keypad_key</string>
+  <string-array name="mousepad_keypad_entries" translatable="false">
+    <item>Office 1</item>
+    <item>Coding 1</item>
+    <item>Gaming 1</item>
+    <item>Gaming 2</item>
+    <item>Gaming 3</item>
+  </string-array>
+  <string-array name="mousepad_keypad_values" translatable="false">
+    <item>office</item>
+    <item>coding</item>
+    <item>gaming1</item>
+    <item>gaming2</item>
+    <item>gaming3</item>
+  </string-array>
+
+
     <string name="kde_connect">KDE Connect</string>
     <string name="manifest_label_share">Send to Device</string>
     <string name="foreground_notification_no_devices">Not connected to any device</string>
@@ -65,7 +85,7 @@ SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted
     <string name="remotekeyboard_connected" translatable="true">Remote keyboard connection is active</string>
     <string name="remotekeyboard_multiple_connections" translatable="true">There is more than one remote keyboard connection, select the device to configure</string>
     <string name="open_mousepad">Remote input</string>
-    <string name="mousepad_info">Move a finger on the screen to move the mouse cursor. Tap for a click, and use two/three fingers for right and middle buttons. Use 2 fingers to scroll. Use a long press to drag\'n drop. Gyro mouse functionality can be enabled from plugin preferences</string>
+    <string name="mousepad_info">This is an accessibility version of the original mousepad plugin.</string>
     <string name="mousepad_info_no_gestures">Move a finger on the screen to move the mouse cursor, tap for a click.</string>
     <string name="mousepad_keyboard_input_not_supported">Keyboard input not supported by the paired device</string>
     <string name="mousepad_single_tap_settings_title">Set one finger tap action</string>

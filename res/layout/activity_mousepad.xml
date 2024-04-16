@@ -23,7 +23,14 @@ SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted
         android:keepScreenOn="true"
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/topbar"
+            android:orientation="vertical"
+            android:background="@color/access_dark">
 
+        </LinearLayout>
         <TextView
             style="@android:style/TextAppearance.Medium"
             android:layout_width="match_parent"

@@ -11,6 +11,16 @@ SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:keep="@xml/mousepadplugin_preferences">
+<!-- new stuff -->
+
+    <ListPreference
+        android:id="@+id/mousepad_keypad_preference"
+        android:defaultValue="@string/mousepad_default_keypad"
+        android:entries="@array/mousepad_keypad_entries"
+        android:entryValues="@array/mousepad_keypad_values"
+        android:key="@string/mousepad_keypad_key"
+        android:summary="%s"
+        android:title="@string/mousepad_keypad_settings_title" />
 
     <ListPreference
         android:id="@+id/mousepad_single_tap_preference"
